@@ -1,0 +1,345 @@
+#titlebar {
+  /* border: 2px rgb(48, 26, 6) solid; */
+  display: flex;
+  justify-content: space-between;
+  font-family: "Kalam", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+#navbar {
+  /* border: 2px blue solid; */
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Kalam", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  border: 10px solid #D4A373; 
+  background-color: #D4A373; 
+  margin: 0; 
+  padding: 0; 
+  min-height: 100vh; 
+  box-sizing: border-box; 
+}
+
+
+#navbar a {
+  font-size: 30px;
+  color: #3E2723;
+  /* text-decoration: none; */
+}
+
+#navbar a:hover {
+  color: #D4A373;
+}
+
+
+#title a {
+  font-size: 30px;
+  color: #3E2723;
+  /* text-decoration: none; */
+}
+
+#title a:hover {
+  color: #D4A373;
+}
+
+#titleimage {
+  /* border: 2px pink solid; */
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  height: 370px;
+}
+
+#middletitle {
+  /* border: 2px orange solid; */
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+  font-family: "Kalam", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#middletitle h2 {
+  color: #3E2723;
+  font-size: 35px;
+}
+
+#homeparagraph {
+  /* border: 2px purple solid; */
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#homeparagraph p {
+  color: gray;
+  font-size: 25px;
+  font-family: "Protest Riot", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#border {
+  /* border: 2px orangered solid; */
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+}
+
+#links {
+  /* border: 2px grey solid; */
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  width: 70%;
+  font-family: "Protest Riot", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#links a {
+  color: #3E2723;
+  text-decoration: none;
+}
+
+#links a:hover {
+  color: #D4A373;
+}
+
+#linkborder {
+  /* border: 2px violet solid; */
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: #F5F1E8;
+}
+
+#drinkstitle {
+  /* border: 2px orange solid; */
+  display: flex;
+  justify-content: center;
+  /* margin-top: 2%; */
+  font-family: "Kalam", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: #3E2723;
+}
+
+#drinksparagraph {
+  /* border: 4px green solid; */
+  margin-top: 0%;
+}
+
+#drinksimages {
+  /* border: 2px purple solid; */
+  display: flex;
+  justify-content: space-evenly;
+  height: 250px;
+  width: auto;
+  /* margin-top: 10%; */
+}
+
+#linksdrinks {
+  /* border: 2px grey solid; */
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 12%;
+  width: 70%;
+  font-family: "Protest Riot", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#linksdrinks a {
+  color: #3E2723;
+  text-decoration: none;
+}
+
+#linksdrinks a:hover {
+  color: #D4A373;
+}
+
+#linkborderdrinks {
+  /* border: 2px violet solid; */
+  display: flex;
+  justify-content: center;
+}
+
+#drinksprices {
+  /* border: 2px yellow solid; */
+  display: flex;
+  justify-content: center;
+  font-family: "Protest Riot", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#espresso {
+  /* border: 2px red solid; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#icedcoffee {
+  /* border: 2px green solid; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#matcha {
+  /* border: 2px blue solid; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#drinksparagraph {
+  /* border: 2px purple solid; */
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  /* bottom: 200px; */
+}
+
+#drinksparagraph p {
+  color: gray;
+  font-size: 25px;
+  font-family: "Protest Riot", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#drinksborder {
+  border: 2px orangered solid;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#pastrytitle {
+  /* border: 2px orange solid; */
+  display: flex;
+  justify-content: center;
+  /* margin-top: 2%; */
+  font-family: "Kalam", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: #3E2723;
+}
+
+#pastryparagraph {
+  /* border: 4px green solid; */
+  margin-top: 0%;
+}
+
+#pastryimages {
+  /* border: 2px purple solid; */
+  display: flex;
+  justify-content: space-evenly;
+  height: 250px;
+  width: auto;
+  /* margin-top: 10%; */
+}
+
+#linkspastry {
+  /* border: 2px grey solid; */
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 12%;
+  width: 70%;
+  font-family: "Protest Riot", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#linkspastry a {
+  color: #3E2723;
+  text-decoration: none;
+}
+
+#linkspastry a:hover {
+  color: #D4A373;
+}
+
+#linkborderpastry {
+  /* border: 2px violet solid; */
+  display: flex;
+  justify-content: center;
+}
+
+#pastryprices {
+  /* border: 2px yellow solid; */
+  display: flex;
+  justify-content: center;
+  font-family: "Protest Riot", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#bread {
+  /* border: 2px red solid; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#cinnamonroll {
+  /* border: 2px green solid; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#cookies {
+  /* border: 2px blue solid; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#pastryparagraph {
+  /* border: 2px purple solid; */
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  /* bottom: 200px; */
+}
+
+#pastryparagraph p {
+  color: gray;
+  font-size: 25px;
+  font-family: "Protest Riot", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#pastryborder {
+  /* border: 2px orangered solid; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+
+
+
+
